@@ -13,18 +13,6 @@
     text-align: center;
 }
 
-/*
-.header__menu {
-    display: flex;
-    width: 391px;
-    height: 44px;
-    padding-left: 92px;
-    padding-right: 36.48px;
-    padding-top: 44px;
-    padding-bottom: 40px;
-    gap: 30px;
-}*/
-
 .header__menu {
     padding-left: 26.52px;
 }
@@ -46,35 +34,7 @@
     text-decoration-thickness: 1px;
     text-underline-offset: 3.5px;
   }
-/*.header__links-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;  
-    align-items: center;
 
-    width: 391.48px;
-    height: 22px;
-    line-height: 21px;
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    word-spacing: normal;
-    color: #000;
-    list-style: circle;
-    text-underline-offset: 3px;
-}
-
-.header__link_active .header__link {
-    text-decoration: none;
-    list-style: none;
-}
-
-.header__links-list-item_no-bullit .header__links-list-item {
-    list-style: none;
-}
-
-
-/* Тут, вроде, тоже всё неплохо, но что-то настораживает */
 .header__logo {
     width: 148px;
     height: 105px;
@@ -85,9 +45,7 @@
     height: 94.84px;
     margin-top: 2.79px;
 }
-/* Тут, вроде, тоже всё неплохо, но что-то настораживает */
 
-/* Пока что единственный блок, где все сходится, всё замечательно, ура! */
 .header__contacts {
     display: flex;
     flex-direction: column;
@@ -97,13 +55,9 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 24.3px;
-    /*justify-self: end;
-    justify-content: end;
-    width: 100%;
-    max-width: 240.52px;*/
     height: 98px;
     padding-left: 187px;
-    padding-top: 5px;*/
+    padding-top: 5px;
 }
 
 .header__contacts-address {
@@ -114,7 +68,6 @@
 .header__contacts-address-new-str {
     text-align: left;
 }
-/* Пока что единственный блок, ге все сходится, всё замечательно, ура! */
 
 .cover {
     background-image: url(../images/cover.jpg);
@@ -201,10 +154,6 @@
 
 .bet-button {
     padding: 12px 32px;
-    /*width: 256px;
-    height: 51px;
-    left: 794px;
-    top: 655px;*/
     color: #fff;
     background-color: transparent;
     border: 1px solid #fff;
